@@ -1,0 +1,12 @@
+.item {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+.picture {
+    border-radius: 6px;
+    width: 246px;
+    height: 180px;
+    object-fit: cover;
+}

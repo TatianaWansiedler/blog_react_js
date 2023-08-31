@@ -1,0 +1,35 @@
+.container {
+    margin: 115px auto 70px;
+    max-width: var(--content-size);
+    display: flex;
+    gap: 110px;
+}
+.user_info {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.titile {
+    color: var(--dark-color);
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 60px;
+}
+.descr {
+    color: var(--dark-color);
+    font-size: 16px;
+    font-weight: 400;
+}
+.btn {
+    border-radius: 2px;
+    background: var(--primary);
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    width: max-content;
+    cursor: pointer;
+
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}

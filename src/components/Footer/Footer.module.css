@@ -1,0 +1,18 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+    height: 180px;
+}
+.soc_media {
+    display: flex;
+    gap: 35px;
+}
+.copyright {
+    color: var(--dark-color);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+}
