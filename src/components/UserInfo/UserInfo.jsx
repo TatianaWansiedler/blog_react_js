@@ -1,5 +1,6 @@
 import s from './UserInfo.module.css'
 import user_photo from '../../assets/photo.svg'
+import Button from '../Button/Button';
 
 const UserInfo = () => {
     return (
@@ -9,7 +10,7 @@ const UserInfo = () => {
                 <p className={s.descr}>
                     Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
                 </p>
-                <button className={s.btn}>Download Resume</button>
+                <Button text={'Download Resume'}/>
             </div>
             <figure className={s.photo}>
                 <img src={user_photo} alt="user_photo" />

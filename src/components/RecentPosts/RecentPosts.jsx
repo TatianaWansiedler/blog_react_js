@@ -21,7 +21,7 @@ const RecentPosts = () => {
                 {
                     blog_data.map((el, i) =>
                         <div key={el.id} className={s.post_container}>
-                            <Post {...el} />
+                            <Post {...el} styles={'light'}/>
                         </div>
                     ).slice(0,2)
                 }

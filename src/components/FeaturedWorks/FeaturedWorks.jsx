@@ -8,7 +8,9 @@ const FeaturedWorks = () => {
             <h2 className={s.title}>Featured works</h2>
             <div className={s.works_wrapper}>
                 {
-                    work_data.map(el => <Work key={el.id} {...el} />)
+                    work_data
+                        .map(el => <Work key={el.id} {...el} />)
+                        .slice(0, 3)
                 }
             </div>
         </section>

@@ -1,15 +1,16 @@
 import s from './Post.module.css'
 
-const Post = (props) => {
-    const { title, text, tags, date } = props
+const Post = ({ title, text, tags, date, styles }) => {
+
     return (
-        <div className={s.post}>
-            <h3 className={s.title}>{title}</h3>
-            <div>
-                <span>{date}</span>
-                <span>{tags}</span>
+        <div className={s[`post-${styles}`]}>
+            <h3 className={s[`title-${styles}`]}>{title}</h3>
+            <div className={s.addit_info}>
+                <span className={s[`date-${styles}`]}>{date}</span>
+                <span className={s.decor }></span>
+                <span className={s[`tags-${styles}`]}>{tags}</span>
             </div>
-            <p>{text}</p>
+            <p className={s.text}>{text}</p>
         </div>
     );
 };
