@@ -1,32 +1,37 @@
-:root{
-  /* coloros */
-  --dark-color: #21243d;
-  --primary: #ff6464;
-  --secondry: #00a8cc;
-  --light: #8695a4;
+:root {
+    /* coloros */
+    --dark-color: #21243d;
+    --primary: #ff6464;
+    --secondry: #00a8cc;
+    --light: #8695a4;
 
-  /* sizes */
-  --main-size: 1152px;
-  --content-size: 856px;
-  --single-page-size: 682px;
-  --header-height: 70px;
+    /* sizes */
+    --main-size: 1152px;
+    --content-size: 856px;
+    --single-page-size: 682px;
+    --header-height: 70px;
+
+    /* screen 900 */
+    --content-size-mob: 85%;
+    --single-page-size-mob: 85%;
+    --header-height-mob: 50px;
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Heebo', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Heebo", sans-serif;
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 input,
 button,
 textarea,
 select {
-  margin: 0;
-  font: inherit;
+    margin: 0;
+    font: inherit;
 }

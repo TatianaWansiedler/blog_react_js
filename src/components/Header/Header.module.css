@@ -6,7 +6,7 @@
     display: flex;
     justify-content: end;
     margin: 0 auto;
-    max-width: var(--main-size)
+    max-width: var(--main-size);
 }
 .nav {
     padding: 25px 60px;
@@ -20,5 +20,28 @@
     font-weight: 500;
 }
 .active {
-    color: var(--primary)
+    color: var(--primary);
+}
+.menu {
+    display: none;
+}
+
+/* adaptive */
+
+@media (max-width: 700px) {
+    .header {
+        height: var(--header-height-mob);
+    }
+    .container {
+        max-width: 90%;
+        align-items: center;
+        justify-content: end;
+        height: 100%;
+    }
+    .menu {
+        display: block;
+    }
+    .nav {
+        display: none;
+    }
 }

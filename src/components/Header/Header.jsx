@@ -1,5 +1,6 @@
 import { NavLink } from 'react-router-dom';
-import s from './Header.module.css'
+import s from './Header.module.css';
+import burger from '../../assets/menu.svg'
 
 const Header = () => {
     const links = ['Home', 'Works', 'Blog', 'Contacts']
@@ -20,6 +21,7 @@ const Header = () => {
                             </NavLink>)
                     }
                 </nav>
+                <img className={s.menu} src={burger} alt="menu_icon" />
             </div>
         </header>
     );

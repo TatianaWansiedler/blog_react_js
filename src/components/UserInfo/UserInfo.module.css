@@ -21,3 +21,32 @@
     font-weight: 400;
 }
 
+/* adaptive */
+
+@media (max-width: 900px) {
+    .container {
+        max-width: var(--content-size-mob);
+        gap: 35px;
+    }
+}
+
+@media (max-width: 700px) {
+    .container {
+        flex-direction: column-reverse;
+        align-items: center;
+        margin: 35px auto 60px;
+    }
+    .user_info {
+        align-items: center;
+    }
+    .titile {
+        text-align: center;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 40px;
+    }
+    .descr {
+        text-align: center;
+    }
+}
+

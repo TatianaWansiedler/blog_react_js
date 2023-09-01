@@ -10,8 +10,27 @@
     line-height: 60px;
     margin-bottom: 22px;
 }
-.works_wrapper{
+.works_wrapper {
     display: flex;
     flex-direction: column;
     gap: 30px;
+}
+
+/* adaptive */
+
+@media (max-width: 900px) {
+    .container {
+        max-width: var(--content-size-mob);
+    }
+}
+
+@media (max-width: 700px) {
+    .container {
+        padding: 0 0 150px;
+    }
+    .title {
+        text-align: center;
+        font-size: 18px;
+        margin-bottom: 0;
+    }
 }

@@ -1,8 +1,15 @@
-.page{
+.page {
     width: 100%;
 }
 .container {
     max-width: var(--single-page-size);
     margin: 0 auto;
     padding: 90px 0 50px;
+}
+
+@media (max-width: 900px) {
+    .container {
+        max-width: var(--single-page-size-mob);
+        padding: 30px 0 50px;
+    }
 }
