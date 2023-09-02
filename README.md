@@ -1,1 +1,1 @@
-### open on [GitHub Pages](https://tatianawansiedler.github.io/blog_react/)
+### open on [GitHub Pages](https://tatianawansiedler.github.io/blog_react_js/)
