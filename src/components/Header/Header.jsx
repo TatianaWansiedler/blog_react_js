@@ -1,27 +1,21 @@
-import { NavLink } from 'react-router-dom';
 import s from './Header.module.css';
 import burger from '../../assets/menu.svg'
+import Navigation from '../Navigation/Navigation';
+import { useState } from 'react';
+import MobMenu from '../MobMenu/MobMenu';
 
 const Header = () => {
-    const links = ['Home', 'Works', 'Blog', 'Contacts']
-    const changeClass = ({ isActive }) => isActive ? [s.nav_link, s.active].join(' ') : s.nav_link
+    const [menuActive, setMenuActiveMenu] = useState(false)
+    const menuHandler = () => {
+        setMenuActiveMenu(!menuActive)
+    }
 
     return (
         <header className={s.header}>
             <div className={s.container}>
-                <nav className={s.nav}>
-                    {
-                        links.map((el, i) =>
-                            <NavLink
-                                to={i === 0 ? '/' : `/${el.toLowerCase()}`}
-                                className={changeClass}
-                                key={el}
-                            >
-                                {el}
-                            </NavLink>)
-                    }
-                </nav>
-                <img className={s.menu} src={burger} alt="menu_icon" />
+                <Navigation />
+                <img onClick={menuHandler} className={s.burger} src={burger} alt="burger_icon" />
+                <MobMenu active={menuActive} setActive={setMenuActiveMenu} />
             </div>
         </header>
     );

@@ -8,21 +8,7 @@
     margin: 0 auto;
     max-width: var(--main-size);
 }
-.nav {
-    padding: 25px 60px;
-    display: flex;
-    gap: 30px;
-}
-.nav_link {
-    color: #000;
-    text-align: right;
-    font-size: 20px;
-    font-weight: 500;
-}
-.active {
-    color: var(--primary);
-}
-.menu {
+.burger {
     display: none;
 }
 
@@ -31,6 +17,10 @@
 @media (max-width: 700px) {
     .header {
         height: var(--header-height-mob);
+        width: 100%;
+        position: fixed;
+        top: 0;
+        background: #fff;
     }
     .container {
         max-width: 90%;
@@ -38,10 +28,8 @@
         justify-content: end;
         height: 100%;
     }
-    .menu {
+    .burger {
         display: block;
-    }
-    .nav {
-        display: none;
+        cursor: pointer;
     }
 }

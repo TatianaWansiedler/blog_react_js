@@ -34,7 +34,7 @@
     .container {
         flex-direction: column-reverse;
         align-items: center;
-        margin: 35px auto 60px;
+        margin: 100px auto 60px;
     }
     .user_info {
         align-items: center;

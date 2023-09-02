@@ -62,7 +62,6 @@
 }
 @media (max-width: 700px) {
     .container {
-        padding: 60px 0;
         justify-content: center;
         align-items: center;
     }

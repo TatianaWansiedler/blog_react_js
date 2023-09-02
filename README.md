@@ -1,6 +1,1 @@
-### open on [GitHub Pages]('...')
-
-<!-- 
-mobile
-burger
- -->
+### open on [GitHub Pages](https://tatianawansiedler.github.io/blog_react/)
