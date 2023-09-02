@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/blog_react/static/css/main.64cf34ef.css",
-    "main.js": "/blog_react/static/js/main.6ee96fad.js",
-    "static/media/photo.svg": "/blog_react/static/media/photo.152c249a3387e0943e03239e3e2f32ca.svg",
-    "static/media/contacts_img.png": "/blog_react/static/media/contacts_img.c26e29b331fc4815d118.png",
-    "static/media/404.png": "/blog_react/static/media/404.cb8f6f9911ca591c7717.png",
-    "static/media/insta.svg": "/blog_react/static/media/insta.a022666c7ca45e61712befd11c45a0c6.svg",
-    "static/media/twitter.svg": "/blog_react/static/media/twitter.635560cde8a52ade58b5e81ea5c7acf9.svg",
-    "static/media/linkedin.svg": "/blog_react/static/media/linkedin.0f3fc81b7abf1f26d85cede053bc5a71.svg",
-    "index.html": "/blog_react/index.html",
-    "static/media/fb.svg": "/blog_react/static/media/fb.57d482e53ef34dc0818005de9ea93a9b.svg",
-    "static/media/menu.svg": "/blog_react/static/media/menu.ac5ca997020532c3566b7e2a1ee004ff.svg",
-    "main.64cf34ef.css.map": "/blog_react/static/css/main.64cf34ef.css.map",
-    "main.6ee96fad.js.map": "/blog_react/static/js/main.6ee96fad.js.map"
+    "main.css": "/blog_react_js/static/css/main.64cf34ef.css",
+    "main.js": "/blog_react_js/static/js/main.fd55458d.js",
+    "static/media/photo.svg": "/blog_react_js/static/media/photo.152c249a3387e0943e03239e3e2f32ca.svg",
+    "static/media/contacts_img.png": "/blog_react_js/static/media/contacts_img.c26e29b331fc4815d118.png",
+    "static/media/404.png": "/blog_react_js/static/media/404.cb8f6f9911ca591c7717.png",
+    "static/media/insta.svg": "/blog_react_js/static/media/insta.a022666c7ca45e61712befd11c45a0c6.svg",
+    "static/media/twitter.svg": "/blog_react_js/static/media/twitter.635560cde8a52ade58b5e81ea5c7acf9.svg",
+    "static/media/linkedin.svg": "/blog_react_js/static/media/linkedin.0f3fc81b7abf1f26d85cede053bc5a71.svg",
+    "index.html": "/blog_react_js/index.html",
+    "static/media/fb.svg": "/blog_react_js/static/media/fb.57d482e53ef34dc0818005de9ea93a9b.svg",
+    "static/media/menu.svg": "/blog_react_js/static/media/menu.ac5ca997020532c3566b7e2a1ee004ff.svg",
+    "main.64cf34ef.css.map": "/blog_react_js/static/css/main.64cf34ef.css.map",
+    "main.fd55458d.js.map": "/blog_react_js/static/js/main.fd55458d.js.map"
   },
   "entrypoints": [
     "static/css/main.64cf34ef.css",
-    "static/js/main.6ee96fad.js"
+    "static/js/main.fd55458d.js"
   ]
 }
